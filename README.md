@@ -1,3 +1,10 @@
+# Pattathari - A Job Search Website
+
+The main purpose of this  project is to help individuals find and secure employment opportunities that align with their skills, qualifications, career goals, and personal preferences. Job search applications serve as a crucial tool for both job seekers and employers.
+
+![image](https://github.com/Mouliravi/task_force/assets/91867842/a71daa13-5578-44ef-8ee3-8f88c31b5058)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
