@@ -12,6 +12,7 @@ const Header = () => {
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
+            <div class="text-sm"></div>
             <span className="self-center text-lg whitespace-nowrap tracking-wide">
               PATTATHARI
             </span>
