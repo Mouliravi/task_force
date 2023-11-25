@@ -15,14 +15,12 @@ const Home = () => {
           <Filter />
         </div>
         <div className="columns-6 flex flex-col gap-3">
-          {" "}
-          <Searchbar className="w-fill" />
+          <Searchbar />
           <h2>Search Results</h2>
           <Details />
         </div>
         <div className="flex columns-3">
-          {" "}
-          <JobDetails />{" "}
+          <JobDetails />
         </div>
       </div>
       <Footer />

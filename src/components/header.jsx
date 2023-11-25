@@ -7,12 +7,12 @@ const Header = () => {
   return (
     <>
       <nav className="bg-white fixed w-full z-20 top-0 start-0 rounded-t-lg">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="w-fill flex flex-wrap justify-between mx-auto p-3.5">
           <a
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <div class="text-sm"></div>
+            <div className="text-sm"></div>
             <span className="self-center text-lg whitespace-nowrap tracking-wide">
               PATTATHARI
             </span>
@@ -47,9 +47,9 @@ const Header = () => {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M1 1h15M1 7h15M1 13h15"
                 />
               </svg>
@@ -61,7 +61,7 @@ const Header = () => {
           >
             <ul className="flex flex-col p-4 md:p-0 mt-4 text-sm border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
               <li className="inline-flex items-center gap-1">
-                <GoHome size={16} className="" />
+                <GoHome size={16} />
                 <a
                   href="/"
                   className=" block py-2 px-3 text-black bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"

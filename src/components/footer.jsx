@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-white rounded-lg shadow m-4">
-        <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <div className="w-full mx-auto p-4 md:flex md:items-center md:justify-between">
           <span className="text-sm text-black sm:text-center dark:text-black">
             © 2023{" "}
             <a href="/" className="hover:underline">
@@ -16,6 +16,11 @@ const Footer = () => {
             <li>
               <a href="/" className="hover:underline me-4 md:me-6">
                 HOME
+              </a>
+            </li>
+            <li>
+              <a href="/" className="hover:underline me-4 md:me-6">
+                PROFILE
               </a>
             </li>
           </ul>
