@@ -1,4 +1,4 @@
-#Pattathari - A Job Search Website
+# Pattathari - A Job Search Website
 
 The main purpose of this  project is to help individuals find and secure employment opportunities that align with their skills, qualifications, career goals, and personal preferences. Job search applications serve as a crucial tool for both job seekers and employers.
 
