@@ -5,15 +5,17 @@
     "location": "Chennai",
     "keywords": ["Full-time", "Expert", "Remote"],
     "salary": "₹ 10L/yr",
-    "logo": "https://rb.gy/5oez7y"
+    "logo": "https://rb.gy/5oez7y",
+    "jd": "We are looking for a UI/UX Designer to turn our software into easy-to-use products for our clients. UI/UX Designer responsibilities include gathering user requirements, designing graphic elements and building navigation components. To be successful in this role, you should have experience with design software and wireframe tools. If you also have a portfolio of professional design projects that includes work with web/mobile applications, we’d like to meet you. Ultimately, you’ll create both functional and appealing features that address our clients’ needs and help us grow our customer base."
   },
   {
     "role": "Software Engineer",
     "company": "Google",
     "location": "Bangalore",
     "keywords": ["Full-time", "Expert", "Remote"],
-    "salary": "₹ 10L/yr",
-    "logo": "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
+    "salary": "₹ 8L/yr",
+    "logo": "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png",
+    "jd": "We are looking for a passionate Software Engineer to design, develop and install software solutions. Software Engineer responsibilities include gathering user requirements, defining system functionality and writing code in various languages, like Java, Ruby on Rails or .NET programming languages (e.g. C++ or JScript.NET.) Our ideal candidates are familiar with the software development life cycle (SDLC) from preliminary system analysis to tests and deployment. Ultimately, the role of the Software Engineer is to build high-quality, innovative and fully performing software that complies with coding standards and technical design. "
   },
   {
     "role": "Data Scientist",
@@ -21,47 +23,53 @@
     "location": "Bangalore",
     "keywords": ["Full-time", "Expert", "Remote"],
     "salary": "₹ 10L/yr",
-    "logo": "https://rb.gy/0o4g6q"
+    "logo": "https://rb.gy/0o4g6q",
+    "jd": " Data mining or extracting usable data from valuable data sources. Using machine learning tools to select features, create and optimize classifiers.Carrying out preprocessing of structured and unstructured data.Enhancing data collection procedures to include all relevant information for developing analytic systems. Processing, cleansing, and validating the integrity of data to be used for analysis. Analyzing large amounts of information to find patterns and solutions. Developing prediction systems and machine learning algorithms. Presenting results in a clear manner. Propose solutions and strategies to tackle business challenges. Collaborate with Business and IT teams."
   },
   {
     "role": "Ethical Hacker",
     "company": "Facebook",
     "location": "Bangalore",
     "keywords": ["Full-time", "Expert", "Remote"],
-    "salary": "₹ 10L/yr",
-    "logo": "https://shorturl.at/aqM48"
+    "salary": "₹ 13L/yr",
+    "logo": "https://shorturl.at/aqM48",
+    "jd": "We are looking for a talented and trustworthy certified ethical hacker to conduct in-depth penetration tests on our customer’s computer systems. As a certified ethical hacker, you will be required to research the type of system being used, find ways to penetrate the system and identify any weaknesses. You may also be required to create penetration test reports and advise on security upgrades."
   },
   {
     "role": "Penetration Tester",
     "company": "Microsoft",
     "location": "Bangalore",
     "keywords": ["Full-time", "Expert", "Remote"],
-    "salary": "₹ 10L/yr",
-    "logo": "https://rb.gy/b0xic9"
+    "salary": "₹ 9L/yr",
+    "logo": "https://rb.gy/b0xic9",
+    "jd": "As our penetration tester, you will be responsible for conducting regular audits and inspections in order to make sure our network and computer systems are secure. You will work regular office hours and will be required to configure information systems as well as design and create new systems in order to fix known vulnerabilities. The ideal candidate will have previous experience in the IT field, as well as ideally previous experience in a position as a penetration tester. You may also be required to assist other IT employees with tasks and present information to the correct supervisors when requested. If this position sounds of interest to you, please don’t hesitate to apply! We would love to have you on your team."
   },
   {
     "role": "Business Analyst",
     "company": "Apple",
     "location": "Bangalore",
     "keywords": ["Full-time", "Expert", "Remote", "Internship", "aboard"],
-    "salary": "₹ 10L/yr",
-    "logo": "https://rb.gy/8eex3p"
+    "salary": "₹ 20L/yr",
+    "logo": "https://rb.gy/8eex3p",
+    "jd": "The Business Analyst will collaborate with various departments and stakeholders to gather, document, and analyze business requirements, processes, and workflows. They will translate these requirements into functional specifications for technology teams and work closely with project managers, developers, and testers to ensure successful project delivery. The Business Analyst will also be involved in identifying areas for process improvement and recommending solutions to enhance operational efficiency and effectiveness.While business analyst roles and responsibilities involve several aspects, the primary role of a business analyst is to make changes within an organization. The solution-oriented changes improve an organization's overall efficiency, including process optimization, cost reduction, and identifying fresh business opportunities."
   },
   {
     "role": ".NET Developer",
     "company": "TCS",
     "location": "Bangalore",
     "keywords": ["Full-time", "Expert", "Remote"],
-    "salary": "₹ 10L/yr",
-    "logo": "https://shorturl.at/lAB47"
+    "salary": "₹ 15L/yr",
+    "logo": "https://shorturl.at/lAB47",
+    "jd": "We are seeking a skilled .NET developer to join our team and contribute to the development of software using the .NET framework. In this role, you will be responsible for creating applications from the ground up, configuring existing systems, and providing user support. To excel in this position, you must possess the ability to write functional code and have a keen eye for identifying and resolving defects. Collaboration and effective communication are essential, as you will be working closely with internal teams. If you have a genuine passion for the .NET framework and possess a strong understanding of software design and architecture, we would like to meet you.Your primary objective will be to collaborate with our internal teams to design, develop, and maintain high-quality software solutions."
   },
   {
     "role": "Technical Writer",
     "company": "Cognizant",
     "location": "Chennai",
     "keywords": ["Full-time", "Expert", "Remote"],
-    "salary": "₹ 10L/yr",
-    "logo": "https://rb.gy/5oez7y"
+    "salary": "₹ 13L/yr",
+    "logo": "https://rb.gy/5oez7y",
+    "jd": "Our fast-growing life sciences firm works closely with enzyme engineering and applications development. We employ a suite of writers skilled in the field of science and technology, and we are currently seeking a professional Technical Writer to join this expanding team. The successful applicant will be responsible for creating technical documents and manuals, explain complex information in a clear and concise manner and working with scientific staff to ensure accuracy of product descriptions. If you have previous experience as a Technical Writer in the life sciences industry, we encourage you to submit an application. "
   },
   {
     "role": "Hardware Engineer",
@@ -69,22 +77,25 @@
     "location": "Bangalore",
     "keywords": ["Full-time", "Expert", "Remote"],
     "salary": "₹ 10L/yr",
-    "logo": "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
+    "logo": "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png",
+    "jd": "We are looking for a motivated and experienced Hardware Engineer to join our team! As a Hardware Engineer, you will be responsible for designing and developing hardware components in close collaboration with our software engineers to make sure the final product operates seamlessly. Designing and building hardware. Recommending new hardware designs. Performing tests of new hardware and software. Troubleshooting and debugging performance issues. Working with vendors and hardware suppliers to implement new designs. Supporting the hardware engineering team. Providing technical support for hardware issues. Following industry-standard processes and procedures. Collaborating with other engineers "
   },
   {
     "role": "Data analyst",
     "company": "Amazon",
     "location": "Bangalore",
     "keywords": ["Full-time", "Expert", "Remote"],
-    "salary": "₹ 10L/yr",
-    "logo": "https://rb.gy/0o4g6q"
+    "salary": "₹ 35L/yr",
+    "logo": "https://rb.gy/0o4g6q",
+    "jd": "A data analyst analyses data sets to find ways to solve problems relating to a business's customers. A data analyst also communicates this information to management and other stakeholders. The employment of these individuals encompasses many different industries such as business, finance, criminal justice, science, medicine, and government. The role of a data analyst can be defined as someone who has the knowledge and skills to turn raw data into information and insight, which can be used to make business decisions."
   },
   {
     "role": "Oracle DBA",
     "company": "Facebook",
     "location": "Bangalore",
     "keywords": ["Full-time", "Expert", "Remote"],
-    "salary": "₹ 10L/yr",
-    "logo": "https://shorturl.at/aqM48"
+    "salary": "₹ 18L/yr",
+    "logo": "https://shorturl.at/aqM48",
+    "jd": "Installing and maintaining the Oracle database software. Creating storage database structures with high-level security features. Altering storage structures to meet the evolving needs of the company. Setting up database user accounts. Training users on how to access the information in the database. Finding and debugging malfunctioning programs affecting the database integrity. Creating autonomous database backups. Regularly updating the database security protocols."
   }
 ]

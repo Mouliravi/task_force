@@ -2,6 +2,7 @@ import React from "react";
 import { GoHome } from "react-icons/go";
 import { PiSuitcaseFill } from "react-icons/pi";
 import { IoBookmarkOutline } from "react-icons/io5";
+//import logo from "../../public/logo.jpg";
 
 const Header = () => {
   return (
@@ -12,7 +13,18 @@ const Header = () => {
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <div className="text-sm"></div>
+            <div className="text-sm">
+              <img
+                src={window.location.origin + "/logo.jpg"}
+                className="w-9 h-9"
+                alt="logo"
+              />
+              {/* <img
+                src={process.env.PUBLIC_URL + "/logo.jpg"}
+                className="w-9 h-9"
+                alt="logo"
+              /> */}
+            </div>
             <span className="self-center text-lg whitespace-nowrap tracking-wide">
               PATTATHARI
             </span>

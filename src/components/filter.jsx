@@ -3,7 +3,7 @@ import React from "react";
 const Filter = () => {
   return (
     <>
-      <div className="-mt-52 flex flex-col p-10 bg-white rounded-lg divide-y gap-3">
+      <div className="-mt-64 flex flex-col p-10 bg-white rounded-lg divide-y gap-3">
         <div className="font-bold inline-flex justify-between">
           Filters{" "}
           <a href="/" className="text-xs font-thin">

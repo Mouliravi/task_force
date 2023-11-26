@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useContext } from "react";
 import { LuCircleDollarSign } from "react-icons/lu";
 import data from "../lib/data.json";
+import { MapItem } from "../pages/home";
 
 const Details = () => {
-  // const [job, setJob] = useEffect([]);
+  const { setJob } = useContext(MapItem);
   return (
     <>
       <div className="grid grid-cols-3 gap-2">
@@ -44,7 +45,7 @@ const Details = () => {
             <button
               className="text-[10px] underline"
               onClick={() => {
-                console.log("hello");
+                setJob(item);
               }}
             >
               Read More
