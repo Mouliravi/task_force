@@ -2,7 +2,7 @@
 
 The main purpose of this  project is to help individuals find and secure employment opportunities that align with their skills, qualifications, career goals, and personal preferences. Job search applications serve as a crucial tool for both job seekers and employers.
 
-![image](https://github.com/Mouliravi/task_force/assets/91867842/a71daa13-5578-44ef-8ee3-8f88c31b5058)
+![image](https://github.com/Mouliravi/task_force/assets/85363293/f0bd1e84-2bd0-4efa-be2d-93f4ae074d3e)
 
 
 # Getting Started with Create React App
