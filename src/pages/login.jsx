@@ -1,8 +1,47 @@
-import React, { useState } from "react";
-import Footer from "../components/footer";
+import React, { useState, useEffect } from "react";
+import { authlogin, authsignup } from "../lib/auth";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const handleLogin = async (userdata) => {
+    console.log(userdata);
+    const data = await authlogin(userdata.email, userdata.password);
+    if (data === undefined) {
+      setShow(true);
+    }
+    if (data && data !== null) {
+      localStorage.setItem("username", data);
+      setSaved(true);
+    }
+  };
+
+  const handleSignup = (userdata) => {
+    const data = authsignup(
+      userdata.email,
+      userdata.password,
+      userdata.repassword
+    );
+    console.log(data);
+  };
+
+  const navigate = useNavigate();
+  const [saved, setSaved] = useState(false);
+  const [show, setShow] = useState("");
+  useEffect(() => {
+    const user = localStorage.getItem("username");
+    if (user !== null) {
+      navigate("/");
+    }
+    setShow("");
+  }, [saved, navigate]);
+
   const [logged, setLogged] = useState(false);
+  const [userdata, setUserdata] = useState({
+    email: "",
+    password: "",
+    repassword: "",
+  });
+
   return (
     <>
       <div className="md:hidden">
@@ -35,7 +74,7 @@ const Login = () => {
             className="absolute inset-0 bg-cover flex justify-start"
             style={{
               backgroundImage:
-                "url(https://img.freepik.com/premium-vector/software-engineer-looking-job-vacancy-2d-vector-isolated-illustration_151150-12213.jpg?w=2000)",
+                "url(https://img.freepik.com/free-vector/abstract-global-communications-background_1048-12297.jpg)",
             }}
           />
           <div className="relative z-20 flex items-center text-lg font-medium">
@@ -67,7 +106,15 @@ const Login = () => {
                 name="mail"
                 className="rounded-lg p-3"
                 placeholder="your email"
+                onChange={(e) => {
+                  setUserdata({ ...userdata, email: e.target.value });
+                }}
               />
+              {show && show ? (
+                <p className="text-xs text-red-600 text-center text-muted-foreground">
+                  Check your email!
+                </p>
+              ) : null}
               <p className="text-sm text-start text-muted-foreground">
                 Enter your password
               </p>
@@ -75,7 +122,16 @@ const Login = () => {
                 name="psswd"
                 className="rounded-lg p-3"
                 placeholder="your password"
+                type="password"
+                onChange={(e) => {
+                  setUserdata({ ...userdata, password: e.target.value });
+                }}
               />
+              {show && show ? (
+                <p className="text-xs text-red-600 text-center text-muted-foreground">
+                  Check your password!
+                </p>
+              ) : null}
               {logged ? (
                 <>
                   <p className="text-start text-sm text-muted-foreground">
@@ -85,29 +141,35 @@ const Login = () => {
                     name="psswd"
                     className="rounded-lg p-3"
                     placeholder="Again your password"
+                    type="password"
+                    onChange={(e) => {
+                      setUserdata({ ...userdata, repassword: e.target.value });
+                    }}
                   />
                 </>
               ) : null}
-              <button className="bg-indigo-600 p-3 mt-4 rounded-full">
+              <button
+                className="bg-indigo-600 p-3 mt-4 rounded-full"
+                onClick={() => {
+                  logged ? handleSignup(userdata) : handleLogin(userdata);
+                }}
+              >
                 {logged ? "Sign Up" : "Login"}
               </button>
             </div>
             <p className="px-8 text-center text-sm text-muted-foreground">
               By clicking continue, you agree to our{" "}
-              <a
-                href="/"
-                className="underline underline-offset-4 hover:text-primary"
-              >
+              <span className="underline underline-offset-4 hover:text-primary">
                 Terms of Service
-              </a>{" "}
+              </span>{" "}
               and{" "}
-              <a
-                href="/"
-                className="underline underline-offset-4 hover:text-primary"
-              >
+              <span className="underline underline-offset-4 hover:text-primary">
                 Privacy Policy
-              </a>
+              </span>
               .
+            </p>
+            <p className="text-[13px] text-center">
+              Try! admin@gmail.com,admin@123
             </p>
           </div>
         </div>
