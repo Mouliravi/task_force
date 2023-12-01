@@ -44,23 +44,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="md:hidden">
-        <img
-          src={window.location.origin + "/landing.jpg"}
-          width={1280}
-          height={843}
-          alt="Authentication"
-          className=""
-        />
-        <img
-          src={window.location.origin + "/landing.jpg"}
-          width={1280}
-          height={843}
-          alt="Authentication"
-          className=""
-        />
-      </div>
-      <div className="container relative hidden h-[800px] flex-col items-center justify-center md:grid lg:max-w-none lg:grid-cols-2 lg:px-0">
+      <div className="container relative h-3/5 lg:h-[750px] flex-col items-center justify-center md:grid lg:max-w-none lg:grid-cols-2 lg:px-0">
         <button
           className="absolute right-4 top-4 md:right-8 md:top-8"
           onClick={() => {
@@ -93,7 +77,7 @@ const Login = () => {
             Pattathari
           </div>
         </div>
-        <div className="lg:p-8">
+        <div className="p-12 mt-16 lg:m-0 lg:p-8 md:h-1/2">
           <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
             <div className="flex flex-col space-y-3 text-center">
               <h1 className="text-2xl font-semibold tracking-tight">

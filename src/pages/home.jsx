@@ -14,8 +14,8 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="gap-3 mt-20 flex justify-between items-center mx-5">
-        <div className="w-80 columns-3 grid">
+      <div className="gap-3 mt-20 flex flex-col md:flex-row lg:flex-row justify-between items-center mx-5">
+        <div className="w-80 columns-0 lg:columns-3 grid">
           <Filter />
         </div>
         <MapItem.Provider value={{ job, setJob }}>
@@ -24,7 +24,7 @@ const Home = () => {
             <h2>Search Results</h2>
             <Details />
           </div>
-          <div className="flex columns-3">
+          <div className="flex columns-6 lg:columns-3">
             <JobDetails />
           </div>
         </MapItem.Provider>

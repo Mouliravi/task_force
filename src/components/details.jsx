@@ -7,7 +7,7 @@ const Details = () => {
   const { setJob } = useContext(MapItem);
   return (
     <>
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid justify-align-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
         {data.map((item, index) => (
           <div
             className="w-72 p-5 bg-white border border-blue-300 rounded-lg shadow"
